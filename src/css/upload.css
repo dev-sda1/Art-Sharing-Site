@@ -1,0 +1,103 @@
+/*CSS Document
+
+File name: upload.css
+About: Handles the styling and layout on /upload.php (Excluding header)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+head header body{margin: 0; padding: 0;}
+a{text-decoration: none; color: rgba(64,159,233,1.00)}
+
+
+/*Doing an upload*/
+
+.fw_uploadfield{
+	margin: 350 auto;
+	
+	background-color: rgba(239,239,239,1.00);
+	
+	width: 550px;
+	height: 60px;
+}
+
+
+.fw_filechooser{
+	width: 500px;
+	height: 30px;
+}
+
+
+.fw_continuebtn{
+	margin-top: -30px;
+	
+	width: 150px;
+	height: 100%;
+	
+	float: right;
+	
+	border: none;
+	
+	color: white;
+	background-color: rgba(95,196,229,1.00);
+	
+	font-size: 26px;
+	
+}
+
+.fw_errormsg{
+	color: red;
+	font-family: 'Questrial';
+	margin-top: 3px;
+	
+	font-size: 20px;
+	
+}
+
+.fw_filechooser{
+	font-size: 16px;
+}
+
+.hide{
+	display: none;
+}
+
+
+/*Customisation and publishing of le work*/
+
+
+.fw_publishsection{
+	margin: 100 auto;
+	padding: 1 15;
+	background-color: rgba(239,239,239,1.00);
+	width: 91vw;
+	
+}
+
+.fw_title{
+	font-family: 'Questrial';
+}
+
+.fw_publish{
+	width: 180px;
+	height: 60px;
+	
+	border: none;
+	
+	float: right;
+	margin-top: -70px;
+	
+	background-color: rgba(95,196,229,1.00);
+	color: white;
+	
+	font-size: 27px;
+}
+
+.fw_submissionprev{
+	width: 300px;
+	
+	float: right;
+	
+	margin-top: 100px;
+}

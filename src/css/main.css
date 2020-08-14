@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+head header body{margin: 0; padding: 0;}
+a{text-decoration: none; color: rgba(64,159,233,1.00)}
+
+
+header{
+	background-color: rgba(73,73,73,1.00);
+	box-shadow: 0px 3px 15px #222222;
+
+	
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	
+}
+
+
+body{
+	background-color: rgba(56,56,56,1.00);
+}
+
+
+/*Header Stuff*/
+
+.fw_logo{
+	width: 180px;
+	
+	margin-top: 5px;
+	
+	float: left;
+	margin-left: -80px;
+	
+}
+
+.fw_userimg{
+	width: 50px;
+	border-radius: 50%;
+	
+	margin-top: 5px;
+	margin-right: -120px;
+	float: right;
+}
+
+.fw_uploadicn{
+	color: black;
+	float: right;
+	font-size: 35px;
+	margin-right: 10px;
+	margin-top: 10px;
+	
+	cursor: pointer;
+}
+
+.fw_accountpage{
+	display: none;
+	
+	width: 600px;
+	height: 160px;
+	
+	margin-top: 60px;
+	float: right;
+	margin-right: -120px;
+	
+	background-color: rgba(239,239,239,1.00);
+	
+	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+	
+}
+
+.fw_accountpage.visible{
+	display: block;
+	
+	width: 600px;
+	height: 160px;
+	
+	margin-top: 60px;
+	float: right;
+	margin-right: -120px;
+	
+	background-color: rgba(239,239,239,1.00);
+	box-shadow: 0px 9px 15px #222222;
+	
+	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+}
+
+.fw_accountpage-DisplayImage{
+	width: 128px;
+	border-radius: 50%;
+	
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+.fw_accountpage-DisplayName{
+	font-size: 27px;
+	
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.fw_verifiedmark_accpage{
+	width: 30px;
+	
+	float: left;
+	margin-top: 27px;
+	margin-left: 10px;
+}
+
+.fw_accountPageLink1{
+	float: right;
+	
+	width: 130px;
+	height: 45px;
+	
+	margin-top: 0px;
+	margin-right: 320px;
+	
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Questrial';
+	
+	color: black;
+	
+	border: none;
+	
+	background-color: rgba(239,239,239,1.00);
+	
+}
+
+.fw_accountPageLink2{
+	float: right;
+	
+	width: 130px;
+	height: 45px;
+
+	margin-top: -46px;
+	margin-right: 190px;
+	
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Questrial';
+	
+	color: black;
+	
+	border: none;
+	
+	background-color: rgba(239,239,239,1.00);
+	
+}
+
+.fw_accountPageLink3{
+	float: right;
+	
+	width: 130px;
+	height: 45px;
+
+	margin-top: -46px;
+	margin-right: 60px;
+	
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Questrial';
+	
+	color: black;
+	
+	border: none;
+	
+	background-color: rgba(239,239,239,1.00);
+	
+}
+
+.fw_accountPageLink1:hover{
+	background-color: rgba(180,180,180,1.00);
+}
+
+.fw_accountPageLink2:hover{
+	background-color: rgba(180,180,180,1.00);
+}
+
+.fw_accountPageLink3:hover{
+	background-color: rgba(180,180,180,1.00);
+}
+
+
+.fw_featuredcontainer{
+	background-color: rgba(119,119,119,1.00);
+	
+	margin: 100 auto;
+	padding: 20px;
+	
+	width: 80vw;
+	height: 33.5vw;
+	
+	box-shadow: 0px 3px 15px rgba(125,125,125,1.00);
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fw_featuredtitle{
+	font-size: 2.5vw;
+	margin-top: 0vw;
+	
+	color: white;
+}
+
+.fw_featuredimg{
+	width: 52vw;
+	background-color: grey;
+	
+	border: none;
+	margin-top: -1vw;
+}
+
+.fw_featuredsubtitle{
+	float: right;
+	font-size: 2.7vw;
+	
+	margin-right: 11vw;
+	margin-top: -1.3vw;
+	
+	color: white;
+}
+
+.fw_featuredsubcreator{
+	float: right;
+	font-size: 1.7vw;
+	color: white;
+	
+	margin-right: 4vw;
+	margin-top: -26vw;
+	width: 23vw;
+}
+
+.fw_staffdescription{
+	float: right;
+	
+	width: 26vw;
+	font-size: 1.5vw;
+	color: white;
+	
+	margin-right: 1vw;
+	margin-top: -22vw;
+}
+
+.fw_viewfsub{
+	border: none;
+	background-color: rgba(100,100,100,1.00);
+	color: white;
+	font-size: 1.5vw;
+	font-family: 'Open Sans', sans-serif;
+	
+	float: right;
+	margin-top: -10vw;
+	margin-right: 16.9vw;
+	
+	width: 10vw;
+	height: 3vw;
+	transition: 0.5s;
+	
+}
+
+.fw_viewfsub:hover{
+	background-color: rgba(150,150,150,1.00);
+	transition: 0.5s;
+	
+}
+
+/*Account Page - 840px and lower (phone screens)*/
+
+@media (max-width: 824px){
+	header{
+		left: 0;
+		right: 0;
+	}
+
+	.fw_accountpage.visible{
+		display: block;
+	
+		width: 100vw;
+		height: 400px;
+	
+		margin-top: 15px;
+		float: left;
+		margin-left: -200px;
+	
+		background-color: rgba(239,239,239,1.00);
+		box-shadow: 0px 9px 15px #222222;
+	
+		font-size: 20px;
+		font-family: 'Questrial', sans-serif;
+		text-align: left;
+	}
+
+	.fw_accountpage-DisplayImage{
+		max-width: 100%;
+		width: 128px;
+		border-radius: 50%;
+	
+		margin-top: 10px;
+		margin-left: 20px;
+}
+	
+	.fw_accountpage-DisplayName{
+		font-size: 27px;
+	
+		float: left;
+		margin-left: 20px;
+		margin-top: 30px;
+}
+
+	.fw_verifiedmark_accpage{
+		width: 30px;
+	
+		float: left;
+		margin-top: 27px;
+		margin-left: 10px;
+}
+
+	.fw_accountPageLink1{
+		float: right;
+		
+		width: 100%;
+		height: 50px;
+	
+		margin-top: 30px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: -0px;
+	
+		color: black;
+
+	}
+
+	.fw_accountPageLink2{
+		float: right;
+	
+		width: 100%;
+		height: 45px;
+
+		margin-top: 0px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: -0px;
+	
+		color: black;
+	
+}
+
+	.fw_accountPageLink3{
+		float: right;
+	
+		width: 100%;
+		height: 45px;
+
+		margin-top: 4px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: -0px;
+	
+		color: black;
+	
+}	
+	.fw_featuredcontainer{
+		background-color: rgba(119,119,119,1.00);
+	
+		margin: 100 auto;
+		padding: 20px;
+	
+		width: 90vw;
+		height: 85vw;
+	
+		box-shadow: 0px 3px 15px rgba(125,125,125,1.00);
+	
+		font-family: 'Open Sans', sans-serif;
+}
+
+	.fw_featuredtitle{
+		font-size: 4vw;
+		margin-top: 0vw;
+	
+		text-align: center;
+		color: white;
+}
+
+	.fw_featuredimg{
+		width: 80vw;
+		background-color: grey;
+		
+		border: none;
+		margin-left: 4.5vw;
+}
+
+	.fw_featuredsubtitle{
+		font-size: 3.5vw;
+		float: left;
+		width: 100%;
+		
+		margin-top: 10px;
+	
+		color: white;
+}
+
+	.fw_featuredsubcreator{
+		font-size: 2.5vw;
+		color: white;
+		width: 100%;
+		
+		float: left;
+		margin-top: -3.5vw;
+		
+		
+}
+
+	.fw_staffdescription{
+		width: 100%;
+		font-size: 2.3vw;
+		color: white;
+	
+		float: left;
+		margin-top: -1vw;
+		
+}
+
+	.fw_viewfsub{
+		border: none;
+		background-color: rgba(100,100,100,1.00);
+		color: white;
+		font-size: 3vw;
+		font-family: 'Open Sans', sans-serif;
+	
+		float: left;
+		width: 20vw;
+		height: 5vw;
+		transition: 0.5s;
+		
+		margin-top: 1vw;
+	
+}
+}
+
+@media (max-width: 612px){
+	header{
+		left: 0;
+		right: 0;
+	}
+	
+	.fw_accountpage.visible{
+		width: 98vw;
+		height: 400px;
+	
+		margin-top: 6px;
+		margin-right: -96px;
+	
+		background-color: rgba(239,239,239,1.00);
+		box-shadow: 0px 10px 10px #222222;
+	
+		font-size: 20px;
+		font-family: 'Questrial', sans-serif;
+		text-align: left;
+
+	}
+
+	.fw_accountpage-DisplayImage{
+		max-width: 100%;
+		width: 128px;
+		border-radius: 50%;
+	
+		margin-top: 10px;
+		margin-left: 20px;
+}
+	
+	.fw_accountpage-DisplayName{
+		font-size: 27px;
+	
+		float: left;
+		margin-left: 20px;
+		margin-top: 30px;
+}
+
+	.fw_verifiedmark_accpage{
+		width: 30px;
+	
+		float: left;
+		margin-top: 27px;
+		margin-left: 10px;
+}
+
+	.fw_accountPageLink1{
+		float: right;
+		
+		width: 100%;
+		height: 45px;
+	
+		margin-top: 30px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: 0;
+	
+		color: black;
+
+	}
+
+	.fw_accountPageLink2{
+		float: right;
+	
+		width: 100%;
+		height: 45px;
+
+		margin-top: 0px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: 0;
+	
+		color: black;
+	
+}
+
+	.fw_accountPageLink3{
+		float: right;
+	
+		width: 100%;
+		height: 45px;
+
+		margin-top: 4px;
+		margin-right: 0;
+	
+		text-align: center;
+		line-height: 0;
+	
+		color: black;
+	
+}	
+	
+}
+
+
+
+
+
+
+
+
